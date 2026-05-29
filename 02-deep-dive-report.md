@@ -1,3 +1,13 @@
+# Tên nhóm: bàn D1 + cháu bác Vượng:
+| Họ và tên | MSV | 
+|---|---|
+| Trần Hoàng Hà | 2A202600612 |
+| Hoàng Đức Trường | 2A202600552 |
+| Nguyễn Hồ Diệu Linh | 2A202600567|
+| Nguyễn Thị Bích Duyên | 2A202600752 |
+| Nguyễn Thị Hiểu | 2A202600545 |
+| Nguyễn Hoàng Tùng | 2A202600628 |
+
 | Field | Nội dung |
 |---|---|
 | **1. Actor / Operator** | Bác sĩ, bệnh nhân |
