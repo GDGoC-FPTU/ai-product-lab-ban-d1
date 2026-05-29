@@ -3,11 +3,11 @@
 ### 📝 List bài toán của tôi:
 | # | Subsidiary (VinFast/Xanh SM...) | Lens | Mô tả ngắn bài toán |
 |---|----------------------------------|------|---------------------|
-| 1 |Vinmec |Bệnh nhân tới khám có thể chờ lâu, không biết trước được bác sĩ của mình |Xây dựng AI system giúp bệnh nhân có thể tìm bác sĩ phù hợp và đặt trước lịch khám |
-| 2 |Vinmec |Bác sĩ chuyên môn cao ít nhưng mất nhiều thời gian để khám cho 1 bệnh nhân |Xây dựng AI system giúp tổng hợp thông tin, triệu chứng của bệnh nhân và lịch sử bệnh cho bác sĩ đọc trước lúc khám cho bệnh nhân |
-| 3 |Vinmec |Ví dụ trường hợp 1 bệnh nhân phải cấp cứu nhưng có nhiều bệnh nền, bác sĩ từ nhiều bộ phận phải họp với nhau để đưa ra phương án phẫu thuật |Xây dựng AI system giúp tổng hợp nhanh thông tin của bệnh nhân cho từng bệnh của bệnh nhân và phân tích nhanh ảnh hưởng của các bệnh nền liên quan đến hình thức phẫu thuật giúp các bác sĩ tiết kiệm thời gian, tăng cơ hội cứu sống bệnh nhân |
-| 4 |Vinmec |Y tá mất nhiều thời gian để tra cứu, tìm kiếm hồ sơ của các bệnh nhân, hồ sơ thiết bị y tế, ... |Xây dựng chatbot hỗ trợ truy vấn nhanh các dữ liệu này|
-| 5 |Vinhomes |Khách hàng khó khăn khi muốn biết những thủ tục hoặc thông tin trong quá trình sinh sống ở Vinhomes, ví dụ muốn xin giấy phép sửa nhà ở đâu, như thế nào, ... |Xây dựng chatbot giúp tra cứu những thông tin này |
+| 1 |Vinmec |Tốn thời gian |Xây dựng AI system giúp bệnh nhân có thể tìm bác sĩ phù hợp và đặt trước lịch khám |
+| 2 |Vinmec |Tốn thời gian, lặp lại |Xây dựng AI system giúp tổng hợp thông tin, triệu chứng của bệnh nhân và lịch sử bệnh cho bác sĩ đọc trước lúc khám cho bệnh nhân |
+| 3 |Vinmec |Tốn thời gian |Xây dựng AI system giúp tổng hợp nhanh thông tin của bệnh nhân cấp cứu và phân tích nhanh ảnh hưởng của các bệnh nền liên quan đến hình thức phẫu thuật giúp các bác sĩ tiết kiệm thời gian, tăng cơ hội cứu sống bệnh nhân |
+| 4 |Vinmec |Tốn thời gian, lặp lại |Xây dựng chatbot hỗ trợ truy vấn nhanh giúp y tá tra cứu, tìm kiếm hồ sơ của các bệnh nhân, hồ sơ thiết bị y tế|
+| 5 |Vinhomes |Tốn thời gian |Xây dựng chatbot giúp khách hàng tìm kiếm thông tin về những thủ tục hoặc thông tin trong quá trình sinh sống ở Vinhomes, ví dụ muốn xin giấy phép sửa nhà ở đâu, như thế nào, ... |
 
 ---
 
