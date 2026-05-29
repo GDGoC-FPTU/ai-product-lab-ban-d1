@@ -10,9 +10,9 @@
 
 | Field | Nội dung |
 |---|---|
-| **1. Actor / Operator** | Bác sĩ, bệnh nhân |
-| **2. Current Workflow** | Khi bệnh nhân đến khám bệnh, thường sẽ phải tìm đường đến bệnh viện, sau đó tìm đến lễ tân/ y á, mô tả triệu chứng, lễ tân/ y tá sẽ chỉ dẫn đến khoa tương ứng. Tại đây, bệnh nhân sẽ phải lấy số và chờ đến lượt khám. Khi tới lượt gặp bác sĩ sẽ phải mô tả lại triệu chứng và tiền sử bệnh cho bác sĩ. Từ đó bác sĩ sẽ khám bệnh và chuẩn đoán.  |
-| **3. Bottleneck** | Thứ nhất bệnh nhân phải qua nhiều "trạm", mô tả triệu chứng nhiều lần và tốn nhiều thời gian để xếp hàng. Bác sĩ thì ít nhưng thời gian để khám cho 1 bệnh nhân khá lâu. |
-| **4. Business Impact** | Mỗi ngày có nhiều bệnh nhân đến khám mà thời gian chờ khá lâu. Về phía bác sĩ sẽ mất nhiều thời gian để khám cho 1 bệnh nhân, dẫn tới việc khám được ít hơn bệnh nhân trong 1 ngày. |
-| **5. Success Metric** | Giảm thời gian bác sĩ khám cho 1 bệnh nhân và giảm các bước bệnh nhân phải thực hiện cũng như thời gian bệnh nhân phải chờ đợi (Efficiency)|
-| **6. Operational Boundary** | AI được phép truy xuất thông tin của bệnh nhân và tạo báo cáo tổng hợp về thông tin của bệnh nhân cho bác sĩ (draft). **CẤM:** AI không được tự động gửi thông tin của bệnh nhân ra ngoài hoặc gửi cho bên thứ 3. |
+| **1. Actor / Operator** | Bác sĩ, Bệnh nhân, Điều dưỡng điều phối. |
+| **2. Current Workflow** | Bệnh nhân đặt lịch trước qua App/Kiosk tại viện $\rightarrow$ Hệ thống tự động phân luồng vào phòng khám phù hợp dựa trên cây quyết định triệu chứng $\rightarrow$ Bệnh nhân đến thẳng phòng khám $\rightarrow$ Bác sĩ khám (hệ thống tự động hiển thị lịch sử bệnh án điện tử - EMR) $\rightarrow$ Bác sĩ dùng Giọng nói để AI Text-to-Speech điền nhanh vào form bệnh án (thay vì gõ tay). |
+| **3. Bottleneck** | 1. Thời gian chờ đợi xếp hàng làm thủ tục tại quầy lễ tân trực tiếp; 2. Thời gian bác sĩ phải gõ bàn phím để nhập liệu bệnh án điện tử sau khi khám. |
+| **4. Business Impact** | 1-Giới hạn năng lực tiếp nhận bệnh nhân của bệnh viện (lãng phí công suất phòng khám); 2-Trải nghiệm khách hàng thấp dẫn đến tỷ lệ khách hàng không quay lại là 25%. |
+| **5. Success Metric** | 1-TAT (Turnaround Time): Giảm thời gian chờ đợi trung bình của bệnh nhân từ lúc vào viện đến lúc gặp bác sĩ từ 45 phút xuống còn < 15 phút; 2-Throughput: Tăng số lượng bệnh nhân bác sĩ khám được trong 1 ngày lên 20% nhờ giảm thời gian gõ nhập liệu; 3-Cost per Visit: Giảm chi phí vận hành nhân sự điều phối tại quầy xuống 30%; 4-Accuracy: Tỷ lệ phân luồng chính xác của hệ thống Rule-based đạt 98%.|
+| **6. Operational Boundary** | Toàn bộ dữ liệu lưu trữ tại Server nội bộ (On-premise). AI chỉ được ứng dụng ở dạng Offline Speech-to-Text để chuyển giọng nói của bác sĩ thành văn bản nhập vào form có sẵn, tuyệt đối không gửi dữ liệu lên Cloud của bên thứ ba (OpenAI, Google). Hệ thống phân luồng chạy bằng Rule-based (Cây quyết định y khoa) được kiểm duyệt bởi Hội đồng Y khoa. **CẤM:** AI không được tự động gửi thông tin của bệnh nhân ra ngoài hoặc gửi cho bên thứ 3. |
